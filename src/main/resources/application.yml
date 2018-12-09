@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    hibernate:
+      dll-auto: none
+    proprerties:
+      hibernate:
+        dialect: "org.hibernate.dialect.MySQL5Dialect"
+  datasource:
+    url: "jdbc:mysql://127.0.0.1:9906/weekengo_db1"
+    username: "root"
+    password: "root"
+
+
+
+# Providers configurations
+providers:
+  flight:
+    eurowings:
+      url: "https://www.eurowings.com/skysales/Deeplink.aspx"
+      custname: "weekengo"
+      custid: "73GARVUViOkZRQ0GdJpRLLJtGXfmNJ"
+      custkey: "gCLX30nmvKqoCJXjiq4JYMxnorviFE"
